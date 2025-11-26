@@ -49,8 +49,8 @@
                 const res = await fetch('data.json?t=' + Date.now());
                 const json = await res.json();
                 
-                // 점수 높은 순으로 정렬
-                allData = json.stocks.sort((a, b) => b.consensus - a.consensus);
+                // 그래도 두기
+                allData = json.stocks;
                 
                 document.getElementById('infoText').innerText = 
                     `업데이트: ${json.updated_at} (총 ${allData.length}개)`;
