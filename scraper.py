@@ -17,10 +17,11 @@ print(f"상위 {MAX_STOCKS}개 종목을 고속으로 수집합니다...")
 # 종목 리스트 가져오기
 df = fdr.StockListing('KRX')
 df = df[~df['Name'].str.endswith('우')]
+# 시가총액(Marcap) 기준으로 내림차순 정렬
 df = df.sort_values(by='Marcap', ascending=False)
 target_stocks = df.head(MAX_STOCKS)
 
-async def fetch(session, code, name, sem):
+async def fetch(session, code, name, marcap, sem):
     async with sem:
         url = f"https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A{code}&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36'}
@@ -48,7 +49,7 @@ async def fetch(session, code, name, sem):
                 target_price = "-"
                 
                 # ---------------------------------------------------------
-                # [탐색 1단계] 리스트(dl/dt/dd) 뒤지기 (기존 방식)
+                # [탐색 1단계] 리스트(dl/dt/dd) 뒤지기
                 # ---------------------------------------------------------
                 dls = soup.select('dl')
                 for dl in dls:
@@ -63,47 +64,41 @@ async def fetch(session, code, name, sem):
                             target_price = value
 
                 # ---------------------------------------------------------
-                # [탐색 2단계] 표(Table) 뒤지기 (사진 보고 추가한 기능!)
+                # [탐색 2단계] 표(Table) 뒤지기
                 # ---------------------------------------------------------
-                # 만약 1단계에서 못 찾았거나 점수가 0점이면, 표를 뒤집니다.
                 if consensus == 0.0:
                     tables = soup.select('table')
                     for table in tables:
-                        # 표의 헤더(제목)들을 다 가져옴
                         headers = [th.text.strip() for th in table.select('thead th')]
-                        # 표의 내용(데이터)들을 다 가져옴
                         cells = [td.text.strip() for td in table.select('tbody tr td')]
                         
-                        # "투자의견"이라는 제목이 몇 번째 칸에 있는지 확인
                         if '투자의견' in headers:
                             idx = headers.index('투자의견')
-                            if idx < len(cells):
-                                val = cells[idx] # 그 위치의 데이터 가져오기
-                                if val: opinion = val
+                            if idx < len(cells) and cells[idx]: opinion = cells[idx]
                         
-                        # "목표주가" 위치 확인
                         if '목표주가' in headers:
                             idx = headers.index('목표주가')
-                            if idx < len(cells):
-                                val = cells[idx]
-                                if val: target_price = val
+                            if idx < len(cells) and cells[idx]: target_price = cells[idx]
 
                 # ---------------------------------------------------------
-                # [최종 정리] 찾아낸 글자에서 숫자만 쏙 뽑기 (정규식)
+                # [최종 정리] 숫자 추출
                 # ---------------------------------------------------------
-                # 예: "4.00 Buy" -> 4.0
                 match = re.search(r'([0-9]+\.[0-9]+|[0-9]+)', opinion)
                 if match:
                     consensus = float(match.group())
                 
-                # "4.00 Buy" -> "Buy"만 남기기 (화면 표시용)
                 clean_opinion = re.sub(r'[0-9\.]+', '', opinion).replace('점', '').strip()
                 if clean_opinion:
                     opinion = clean_opinion
 
                 return {
-                    "code": code, "name": name, "price": price,
-                    "consensus": consensus, "opinion": opinion, "target_price": target_price,
+                    "code": code, 
+                    "name": name, 
+                    "price": price,
+                    "consensus": consensus, 
+                    "opinion": opinion, 
+                    "target_price": target_price,
+                    "marcap": marcap, # 시가총액 정보 추가
                     "url": url
                 }
         except:
@@ -115,11 +110,15 @@ async def main():
     async with aiohttp.ClientSession(connector=connector) as session:
         tasks = []
         for index, row in target_stocks.iterrows():
-            task = asyncio.create_task(fetch(session, row['Code'], row['Name'], semaphore))
+            # 시가총액(marcap) 정보도 함께 넘겨줌
+            task = asyncio.create_task(fetch(session, row['Code'], row['Name'], row['Marcap'], semaphore))
             tasks.append(task)
         
         results = await asyncio.gather(*tasks)
         valid_results = [r for r in results if r is not None]
+        
+        # ★[중요] 저장하기 전에 '덩치(시가총액)' 순서대로 줄 세우기★
+        valid_results.sort(key=lambda x: x['marcap'], reverse=True)
         
         print(f"✅ 총 {len(valid_results)}개 수집 완료!")
         
