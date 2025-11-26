@@ -1,0 +1,39 @@
+name: Daily Stock Update
+
+on:
+  schedule:
+    # UTC 00:00 = 한국 시간 아침 09:00
+    - cron: '0 0 * * *'
+  workflow_dispatch:      # 수동 실행 버튼
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: 파이썬 설정
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: 필수 도구 설치
+      run: |
+        pip install requests beautifulsoup4 pandas finance-datareader
+
+    - name: 크롤링 시작
+      run: |
+        python scraper.py
+
+    - name: 결과 저장
+      run: |
+        git config --global user.name 'GitHub Action'
+        git config --global user.email 'action@github.com'
+        git add data.json
+        git commit -m "Update stock data" || echo "No changes"
+        git push
+
+
