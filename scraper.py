@@ -2,25 +2,25 @@ import json
 import datetime
 import asyncio
 import aiohttp
+import re  # 1. 숫자만 추출하는 도구 추가
 import FinanceDataReader as fdr
 from bs4 import BeautifulSoup
 
 # ==========================================
-# 설정: 2000개 (3분 컷 가능)
+# 설정: 2000개 고속 수집
 # ==========================================
 MAX_STOCKS = 2000
-CONCURRENT_REQUESTS = 10  # 로봇 10마리 동시 출동
+CONCURRENT_REQUESTS = 10
 
 print(f"상위 {MAX_STOCKS}개 종목을 고속으로 수집합니다...")
 
-# 1. 종목 리스트 가져오기
+# 종목 리스트 가져오기
 df = fdr.StockListing('KRX')
 df = df[~df['Name'].str.endswith('우')]
 df = df.sort_values(by='Marcap', ascending=False)
 target_stocks = df.head(MAX_STOCKS)
 
 async def fetch(session, code, name, sem):
-    # 동시에 너무 많이 접속하면 차단당하니까 순서 지키기
     async with sem:
         url = f"https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A{code}&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36'}
@@ -28,7 +28,13 @@ async def fetch(session, code, name, sem):
         try:
             async with session.get(url, headers=headers, timeout=10) as response:
                 if response.status != 200: return None
-                html = await response.text()
+                
+                # 2. 한글 깨짐 방지 (안전장치)
+                try:
+                    html = await response.text()
+                except:
+                    html = await response.read()
+                    html = html.decode('euc-kr', errors='replace')
                 
                 soup = BeautifulSoup(html, 'html.parser')
                 
@@ -40,24 +46,31 @@ async def fetch(session, code, name, sem):
                 opinion = "의견없음"
                 target_price = "-"
                 
-                # 투자의견 찾기
-                summary_table = soup.select('#corp_group2 dl')
-                for item in summary_table:
-                    text = item.text
-                    if '투자의견' in text:
-                        dd = item.select_one('dd')
-                        if dd:
-                            raw = dd.text.strip()
-                            opinion = raw
-                            try:
-                                if '점' in raw: consensus = float(raw.split('점')[0])
-                                elif raw.replace('.','').isdigit(): consensus = float(raw)
-                                if ']' in opinion: opinion = opinion.split(']')[1].strip()
-                                if '점' in opinion: opinion = opinion.split('점')[1].strip()
-                            except: pass
-                    elif '목표주가' in text:
-                        dd = item.select_one('dd')
-                        if dd: target_price = dd.text.strip()
+                # 투자의견 찾기 (모든 dl 태그 뒤지기)
+                dls = soup.select('dl')
+                for dl in dls:
+                    dt = dl.select_one('dt')
+                    dd = dl.select_one('dd')
+                    
+                    if dt and dd:
+                        title = dt.text.strip()
+                        value = dd.text.strip()
+                        
+                        if '투자의견' in title:
+                            opinion = value
+                            # 3. "4.00매수", "4.00", "4점" 등 어떤 형태든 앞의 숫자만 추출
+                            # 정규식: 숫자(\d)와 점(.)이 붙어있는 패턴 찾기
+                            match = re.search(r'([0-9]+\.[0-9]+|[0-9]+)', value)
+                            if match:
+                                consensus = float(match.group())
+                            
+                            # 글자만 남기기 (4.00매수 -> 매수)
+                            clean_opinion = re.sub(r'[0-9\.]+', '', value).replace('점', '').strip()
+                            if clean_opinion:
+                                opinion = clean_opinion
+                                
+                        elif '목표주가' in title:
+                            target_price = value
 
                 return {
                     "code": code, "name": name, "price": price,
@@ -75,10 +88,7 @@ async def main():
             task = asyncio.create_task(fetch(session, row['Code'], row['Name'], semaphore))
             tasks.append(task)
         
-        # 전체 로봇 출동 및 결과 모으기
         results = await asyncio.gather(*tasks)
-        
-        # 실패한 것(None) 빼고 정리
         valid_results = [r for r in results if r is not None]
         
         print(f"✅ 총 {len(valid_results)}개 수집 완료!")
