@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주식 투자의견 판독기</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 min-h-screen">
+
+    <div class="max-w-md mx-auto min-h-screen bg-white shadow-xl border-x border-gray-100 relative">
+        <!-- 상단 헤더 -->
+        <div class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100 pb-2">
+            <div class="bg-slate-900 text-white p-5 rounded-b-3xl shadow-md mb-4">
+                <h1 class="text-xl font-bold flex items-center gap-2">
+                    <i class="fas fa-chart-pie text-yellow-400"></i> 투자의견 판독기
+                </h1>
+                <p id="infoText" class="text-slate-400 text-xs mt-1">데이터 로딩 중...</p>
+            </div>
+
+            <div class="px-4">
+                <div class="relative group">
+                    <input type="text" id="searchInput" 
+                        placeholder="종목명 또는 코드 검색" 
+                        class="w-full bg-slate-100 text-slate-800 font-bold p-4 pl-12 rounded-2xl outline-none focus:ring-2 focus:ring-blue-500 transition-all placeholder-gray-400"
+                        onkeyup="handleSearch()">
+                    <i class="fas fa-search absolute left-5 top-5 text-gray-400"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- 리스트 영역 -->
+        <div id="stockList" class="p-4 space-y-3 pb-20">
+            <div class="text-center py-20">
+                <div class="animate-spin w-8 h-8 border-4 border-blue-600 border-t-transparent rounded-full mx-auto mb-4"></div>
+                <p class="text-gray-400 text-sm">최신 데이터를 불러오고 있습니다...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let allData = [];
+        const INITIAL_LIMIT = 100; // 처음에 보여줄 개수
+
+        async function loadData() {
+            try {
+                // 데이터 가져오기 (시간 붙여서 캐시 방지)
+                const res = await fetch('data.json?t=' + Date.now());
+                const json = await res.json();
+                
+                // 점수 높은 순으로 정렬
+                allData = json.stocks.sort((a, b) => b.consensus - a.consensus);
+                
+                document.getElementById('infoText').innerText = 
+                    `업데이트: ${json.updated_at} (총 ${allData.length}개)`;
+
+                // 처음엔 100개만 보여줌
+                renderList(allData.slice(0, INITIAL_LIMIT));
+                
+            } catch (e) {
+                document.getElementById('stockList').innerHTML = 
+                    '<div class="text-center py-10 text-red-500">데이터 없음<br>Actions 탭에서 실행해주세요.</div>';
+            }
+        }
+
+        function renderList(data) {
+            const list = document.getElementById('stockList');
+            list.innerHTML = '';
+
+            if (data.length === 0) {
+                list.innerHTML = '<div class="text-center py-10 text-gray-400">검색 결과가 없습니다.</div>';
+                return;
+            }
+
+            data.forEach(item => {
+                const score = parseFloat(item.consensus);
+                // 색상 테마 결정
+                let theme = { color: "text-gray-400", bg: "bg-gray-200", badge: "bg-gray-100 text-gray-500" };
+                
+                if (score >= 4.0) {
+                    theme = { color: "text-red-600", bg: "bg-red-500", badge: "bg-red-100 text-red-600 border border-red-200" };
+                } else if (score >= 3.0) {
+                    theme = { color: "text-orange-500", bg: "bg-orange-500", badge: "bg-orange-50 text-orange-600 border border-orange-200" };
+                }
+
+                const html = `
+                    <div class="bg-white border border-gray-100 rounded-xl p-4 shadow-sm hover:shadow-md transition">
+                        <div class="flex justify-between items-start mb-3">
+                            <div>
+                                <h3 class="font-bold text-lg text-gray-800">${item.name}</h3>
+                                <span class="text-xs text-gray-400 font-mono bg-gray-50 px-1 rounded">${item.code}</span>
+                            </div>
+                            <span class="px-2 py-1 rounded text-xs font-bold ${theme.badge}">${item.opinion}</span>
+                        </div>
+                        
+                        <!-- 점수와 목표가 -->
+                        <div class="flex items-end justify-between mb-2">
+                            <div class="flex items-baseline gap-1">
+                                <span class="text-2xl font-black ${theme.color}">${score.toFixed(2)}</span>
+                                <span class="text-xs text-gray-400">/4.0</span>
+                            </div>
+                            <div class="text-right">
+                                <p class="font-bold text-gray-700">${item.target_price}</p>
+                                <p class="text-[10px] text-gray-400">목표주가</p>
+                            </div>
+                        </div>
+                        
+                        <!-- 여기가 그래프(게이지) 부분 -->
+                        <div class="h-3 bg-gray-100 rounded-full overflow-hidden mb-3 relative">
+                            <div class="h-full ${theme.bg}" style="width: ${(score/4)*100}%"></div>
+                        </div>
+
+                        <a href="${item.url}" target="_blank" class="block text-center py-2 bg-slate-50 text-slate-600 text-xs font-bold rounded-lg hover:bg-slate-100">
+                            상세 리포트 보기 >
+                        </a>
+                    </div>
+                `;
+                list.innerHTML += html;
+            });
+        }
+
+        function handleSearch() {
+            const input = document.getElementById('searchInput').value.toUpperCase();
+            
+            if (input.length === 0) {
+                renderList(allData.slice(0, INITIAL_LIMIT)); // 검색어 없으면 100개만
+            } else {
+                // 전체 데이터에서 검색
+                const filtered = allData.filter(item => 
+                    item.name.includes(input) || item.code.includes(input)
+                );
+                renderList(filtered);
+            }
+        }
+
+        loadData();
+    </script>
+</body>
+</html>
+
+
