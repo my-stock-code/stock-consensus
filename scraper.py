@@ -2,12 +2,12 @@ import json
 import datetime
 import asyncio
 import aiohttp
-import re  # 1. 숫자만 추출하는 도구 추가
+import re
 import FinanceDataReader as fdr
 from bs4 import BeautifulSoup
 
 # ==========================================
-# 설정: 2000개 고속 수집
+# 설정: 2000개 고속 수집 (3분 컷)
 # ==========================================
 MAX_STOCKS = 2000
 CONCURRENT_REQUESTS = 10
@@ -26,19 +26,20 @@ async def fetch(session, code, name, sem):
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36'}
         
         try:
-            async with session.get(url, headers=headers, timeout=10) as response:
+            # ssl=False: 보안 검사 패스하고 속도 업
+            async with session.get(url, headers=headers, timeout=15, ssl=False) as response:
                 if response.status != 200: return None
                 
-                # 2. 한글 깨짐 방지 (안전장치)
+                # [핵심 1] 한글 깨짐 방지
+                raw_data = await response.read()
                 try:
-                    html = await response.text()
+                    html = raw_data.decode('euc-kr')
                 except:
-                    html = await response.read()
-                    html = html.decode('euc-kr', errors='replace')
+                    html = raw_data.decode('utf-8', errors='ignore')
                 
                 soup = BeautifulSoup(html, 'html.parser')
                 
-                # 가격
+                # 가격 가져오기
                 price_tag = soup.select_one('#svdMainChartTxt11')
                 price = price_tag.text.strip() if price_tag else "-"
                 
@@ -46,31 +47,59 @@ async def fetch(session, code, name, sem):
                 opinion = "의견없음"
                 target_price = "-"
                 
-                # 투자의견 찾기 (모든 dl 태그 뒤지기)
+                # ---------------------------------------------------------
+                # [탐색 1단계] 리스트(dl/dt/dd) 뒤지기 (기존 방식)
+                # ---------------------------------------------------------
                 dls = soup.select('dl')
                 for dl in dls:
                     dt = dl.select_one('dt')
                     dd = dl.select_one('dd')
-                    
                     if dt and dd:
                         title = dt.text.strip()
                         value = dd.text.strip()
-                        
                         if '투자의견' in title:
                             opinion = value
-                            # 3. "4.00매수", "4.00", "4점" 등 어떤 형태든 앞의 숫자만 추출
-                            # 정규식: 숫자(\d)와 점(.)이 붙어있는 패턴 찾기
-                            match = re.search(r'([0-9]+\.[0-9]+|[0-9]+)', value)
-                            if match:
-                                consensus = float(match.group())
-                            
-                            # 글자만 남기기 (4.00매수 -> 매수)
-                            clean_opinion = re.sub(r'[0-9\.]+', '', value).replace('점', '').strip()
-                            if clean_opinion:
-                                opinion = clean_opinion
-                                
                         elif '목표주가' in title:
                             target_price = value
+
+                # ---------------------------------------------------------
+                # [탐색 2단계] 표(Table) 뒤지기 (사진 보고 추가한 기능!)
+                # ---------------------------------------------------------
+                # 만약 1단계에서 못 찾았거나 점수가 0점이면, 표를 뒤집니다.
+                if consensus == 0.0:
+                    tables = soup.select('table')
+                    for table in tables:
+                        # 표의 헤더(제목)들을 다 가져옴
+                        headers = [th.text.strip() for th in table.select('thead th')]
+                        # 표의 내용(데이터)들을 다 가져옴
+                        cells = [td.text.strip() for td in table.select('tbody tr td')]
+                        
+                        # "투자의견"이라는 제목이 몇 번째 칸에 있는지 확인
+                        if '투자의견' in headers:
+                            idx = headers.index('투자의견')
+                            if idx < len(cells):
+                                val = cells[idx] # 그 위치의 데이터 가져오기
+                                if val: opinion = val
+                        
+                        # "목표주가" 위치 확인
+                        if '목표주가' in headers:
+                            idx = headers.index('목표주가')
+                            if idx < len(cells):
+                                val = cells[idx]
+                                if val: target_price = val
+
+                # ---------------------------------------------------------
+                # [최종 정리] 찾아낸 글자에서 숫자만 쏙 뽑기 (정규식)
+                # ---------------------------------------------------------
+                # 예: "4.00 Buy" -> 4.0
+                match = re.search(r'([0-9]+\.[0-9]+|[0-9]+)', opinion)
+                if match:
+                    consensus = float(match.group())
+                
+                # "4.00 Buy" -> "Buy"만 남기기 (화면 표시용)
+                clean_opinion = re.sub(r'[0-9\.]+', '', opinion).replace('점', '').strip()
+                if clean_opinion:
+                    opinion = clean_opinion
 
                 return {
                     "code": code, "name": name, "price": price,
@@ -82,7 +111,8 @@ async def fetch(session, code, name, sem):
 
 async def main():
     semaphore = asyncio.Semaphore(CONCURRENT_REQUESTS)
-    async with aiohttp.ClientSession() as session:
+    connector = aiohttp.TCPConnector(ssl=False)
+    async with aiohttp.ClientSession(connector=connector) as session:
         tasks = []
         for index, row in target_stocks.iterrows():
             task = asyncio.create_task(fetch(session, row['Code'], row['Name'], semaphore))
