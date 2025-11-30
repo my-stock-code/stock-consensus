@@ -1,5 +1,5 @@
 {
-    "updated_at": "2025-11-29 03:47:18",
+    "updated_at": "2025-11-30 04:01:16",
     "stocks": [
         {
             "code": "005930",
@@ -377,7 +377,7 @@
             "price": "19,140",
             "consensus": 3.2,
             "opinion": "3.2",
-            "target_price": "22,000",
+            "target_price": "22,545",
             "marcap": 18053574745800,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A011200&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -747,7 +747,7 @@
             "price": "21,850",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "29,438",
+            "target_price": "29,250",
             "marcap": 8045621442850,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A003490&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -817,7 +817,7 @@
             "price": "85,400",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "100,000",
+            "target_price": "150,000",
             "marcap": 7107096031000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A950160&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -947,7 +947,7 @@
             "price": "178,900",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "254,625",
+            "target_price": "263,571",
             "marcap": 5671130000000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A006260&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -1207,7 +1207,7 @@
             "price": "22,200",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "23,975",
+            "target_price": "24,643",
             "marcap": 4139130060000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A001440&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -1237,7 +1237,7 @@
             "price": "87,500",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "94,333",
+            "target_price": "99,600",
             "marcap": 3877253450000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A111770&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -1437,7 +1437,7 @@
             "price": "228,500",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "384,545",
+            "target_price": "374,545",
             "marcap": 2811471540500,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A145020&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -1535,9 +1535,9 @@
             "code": "001450",
             "name": "현대해상",
             "price": "30,050",
-            "consensus": 3.8,
-            "opinion": "3.8",
-            "target_price": "35,458",
+            "consensus": 3.9,
+            "opinion": "3.9",
+            "target_price": "35,500",
             "marcap": 2686470000000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A001450&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -1557,7 +1557,7 @@
             "price": "68,500",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "92,500",
+            "target_price": "92,333",
             "marcap": 2639052372000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A439260&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -1877,7 +1877,7 @@
             "price": "91,300",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "120,333",
+            "target_price": "120,308",
             "marcap": 2082767007200,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A000120&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -2462,6 +2462,16 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A058610&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "035760",
+            "name": "CJ ENM",
+            "price": "63,500",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "89,200",
+            "marcap": 1392501279000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A035760&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "083650",
             "name": "비에이치아이",
             "price": "44,950",
@@ -2547,7 +2557,7 @@
             "price": "18,810",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "25,700",
+            "target_price": "25,636",
             "marcap": 1319213222910,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A000080&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -3142,6 +3152,16 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A287840&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "137400",
+            "name": "피엔티",
+            "price": "41,100",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 975840834600,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A137400&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "031980",
             "name": "피에스케이홀딩스",
             "price": "45,000",
@@ -3377,7 +3397,7 @@
             "price": "59,200",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "89,000",
+            "target_price": "89,500",
             "marcap": 862460646400,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A009450&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -3665,9 +3685,9 @@
             "code": "003850",
             "name": "보령",
             "price": "8,940",
-            "consensus": 0.0,
-            "opinion": "관련 데이터가 없습니다",
-            "target_price": "-",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "13,000",
             "marcap": 766937630580,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A003850&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -4057,7 +4077,7 @@
             "price": "30,000",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "43,750",
+            "target_price": "47,000",
             "marcap": 686166390000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A082920&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -4607,7 +4627,7 @@
             "price": "25,200",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "33,625",
+            "target_price": "33,667",
             "marcap": 550791763200,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A095660&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -4807,7 +4827,7 @@
             "price": "12,900",
             "consensus": 3.9,
             "opinion": "3.9",
-            "target_price": "13,667",
+            "target_price": "14,000",
             "marcap": 516000000000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A105630&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -4885,9 +4905,9 @@
             "code": "119850",
             "name": "지엔씨에너지",
             "price": "31,000",
-            "consensus": 0.0,
-            "opinion": "관련 데이터가 없습니다",
-            "target_price": "-",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "41,000",
             "marcap": 509916179000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A119850&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -4907,7 +4927,7 @@
             "price": "54,200",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "68,600",
+            "target_price": "67,500",
             "marcap": 506913359000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A170900&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -5647,7 +5667,7 @@
             "price": "47,150",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "43,000",
+            "target_price": "53,000",
             "marcap": 427412203900,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A107640&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -7367,7 +7387,7 @@
             "price": "12,640",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "15,667",
+            "target_price": "15,500",
             "marcap": 283484649120,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A003220&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -7617,7 +7637,7 @@
             "price": "32,500",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "40,000",
+            "target_price": "46,000",
             "marcap": 267086495000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A452430&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -8625,9 +8645,9 @@
             "code": "000520",
             "name": "삼일제약",
             "price": "10,580",
-            "consensus": 0.0,
-            "opinion": "관련 데이터가 없습니다",
-            "target_price": "-",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "13,000",
             "marcap": 229499360380,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A000520&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -10515,9 +10535,9 @@
             "code": "013580",
             "name": "계룡건설",
             "price": "18,690",
-            "consensus": 0.0,
-            "opinion": "관련 데이터가 없습니다",
-            "target_price": "-",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "28,000",
             "marcap": 166918651830,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A013580&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -13325,9 +13345,9 @@
             "code": "100130",
             "name": "동국S&C",
             "price": "2,045",
-            "consensus": 0.0,
-            "opinion": "관련 데이터가 없습니다",
-            "target_price": "-",
+            "consensus": 3.0,
+            "opinion": "3.0",
+            "target_price": "2,300",
             "marcap": 116857435000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A100130&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -13895,9 +13915,9 @@
             "code": "013310",
             "name": "아진산업",
             "price": "2,800",
-            "consensus": 0.0,
-            "opinion": "관련 데이터가 없습니다",
-            "target_price": "-",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "3,200",
             "marcap": 108658429600,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A013310&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -16835,9 +16855,9 @@
             "code": "111110",
             "name": "호전실업",
             "price": "8,010",
-            "consensus": 0.0,
-            "opinion": "관련 데이터가 없습니다",
-            "target_price": "-",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "9,500",
             "marcap": 75101760000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A111110&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -18792,6 +18812,36 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A037330&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "466410",
+            "name": "사이냅소프트",
+            "price": "12,020",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 60545016460,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A466410&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "109960",
+            "name": "앱토크롬",
+            "price": "274",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 60496259706,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A109960&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "462510",
+            "name": "라메디텍",
+            "price": "6,870",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 60476369550,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A462510&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "001000",
             "name": "신라섬유",
             "price": "2,490",
@@ -18800,6 +18850,26 @@
             "target_price": "-",
             "marcap": 60451074600,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A001000&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "215090",
+            "name": "솔디펜스",
+            "price": "2,610",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 60436275210,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A215090&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "090410",
+            "name": "덕신이피씨",
+            "price": "1,310",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 60370164450,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A090410&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "047400",
@@ -18830,6 +18900,16 @@
             "target_price": "-",
             "marcap": 60099895728,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A000890&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "417860",
+            "name": "오브젠",
+            "price": "13,480",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 59995961720,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A417860&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "009190",
@@ -18882,6 +18962,76 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A004410&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "073570",
+            "name": "리튬포어스",
+            "price": "991",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 59644961231,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A073570&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "452160",
+            "name": "제이엔비",
+            "price": "6,200",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 59628667400,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A452160&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "058730",
+            "name": "다스코",
+            "price": "3,165",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 59492318265,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A058730&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "052900",
+            "name": "KX하이텍",
+            "price": "910",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 59490754960,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A052900&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "024840",
+            "name": "KBI메탈",
+            "price": "1,699",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 59310729101,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A024840&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "359090",
+            "name": "씨엔알리서치",
+            "price": "1,030",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 59194838510,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A359090&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "117670",
+            "name": "알파칩스",
+            "price": "8,840",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 58889799280,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A117670&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "160550",
             "name": "NEW",
             "price": "2,110",
@@ -18890,6 +19040,36 @@
             "target_price": "-",
             "marcap": 58881883660,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A160550&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "196300",
+            "name": "HLB펩",
+            "price": "6,330",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 58827209340,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A196300&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "219750",
+            "name": "한국비티비",
+            "price": "899",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 58818769615,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A219750&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "189690",
+            "name": "포시에스",
+            "price": "2,150",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 58742233350,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A189690&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "064090",
@@ -18932,6 +19112,36 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A045340&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "260660",
+            "name": "알리코제약",
+            "price": "3,815",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 58472585115,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A260660&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "440290",
+            "name": "HB인베스트먼트",
+            "price": "2,125",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 58451163750,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A440290&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "025560",
+            "name": "미래산업",
+            "price": "12,990",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 58229675460,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A025560&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "001550",
             "name": "조비",
             "price": "11,210",
@@ -18940,6 +19150,16 @@
             "target_price": "-",
             "marcap": 58204999190,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A001550&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "099520",
+            "name": "DGI",
+            "price": "1,284",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 58141862016,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A099520&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "017180",
@@ -19002,6 +19222,26 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A053950&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "037230",
+            "name": "한국팩키지",
+            "price": "1,930",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 57514631110,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A037230&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "245620",
+            "name": "EDGC",
+            "price": "415",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 57474989665,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A245620&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "049550",
             "name": "잉크테크",
             "price": "2,930",
@@ -19010,6 +19250,16 @@
             "target_price": "-",
             "marcap": 57446391610,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A049550&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "084180",
+            "name": "수성웹툰",
+            "price": "3,170",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 57295477110,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A084180&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "173940",
@@ -19122,6 +19372,16 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A103840&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "038010",
+            "name": "제일테크노스",
+            "price": "6,300",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 56700000000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A038010&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "430690",
             "name": "한싹",
             "price": "5,200",
@@ -19212,6 +19472,16 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A223310&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "177900",
+            "name": "쓰리에이로직스",
+            "price": "5,870",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 56262776000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A177900&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "250000",
             "name": "보라티알",
             "price": "8,320",
@@ -19282,6 +19552,26 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A066130&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "455180",
+            "name": "케이지에이",
+            "price": "4,370",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 55790299830,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A455180&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "046970",
+            "name": "우리로",
+            "price": "1,271",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 55701573729,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A046970&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "495900",
             "name": "에이엠시지",
             "price": "11,300",
@@ -19312,6 +19602,26 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A171010&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "071670",
+            "name": "에이테크솔루션",
+            "price": "5,520",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 55200000000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A071670&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "012160",
+            "name": "영흥",
+            "price": "544",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 55112842368,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A012160&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "064480",
             "name": "브리지텍",
             "price": "4,610",
@@ -19340,6 +19650,16 @@
             "target_price": "-",
             "marcap": 55005802950,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A011230&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "019540",
+            "name": "일지테크",
+            "price": "4,070",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 54999945000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A019540&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "290090",
@@ -19550,6 +19870,16 @@
             "target_price": "-",
             "marcap": 53500000000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A024940&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "003310",
+            "name": "대주산업",
+            "price": "1,511",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 53477840850,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A003310&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "224110",
