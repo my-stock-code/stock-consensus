@@ -1,5 +1,5 @@
 {
-    "updated_at": "2025-12-13 03:49:22",
+    "updated_at": "2025-12-14 04:02:59",
     "stocks": [
         {
             "code": "005930",
@@ -742,6 +742,16 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A005830&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "000720",
+            "name": "현대건설",
+            "price": "78,000",
+            "consensus": 3.9,
+            "opinion": "3.9",
+            "target_price": "85,263",
+            "marcap": 8685749670000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A000720&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "079550",
             "name": "LIG넥스원",
             "price": "383,000",
@@ -1230,6 +1240,16 @@
             "target_price": "102,364",
             "marcap": 3988032120000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A111770&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "052690",
+            "name": "한전기술",
+            "price": "103,900",
+            "consensus": 3.9,
+            "opinion": "3.9",
+            "target_price": "121,818",
+            "marcap": 3971058000000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A052690&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "002380",
@@ -1922,6 +1942,16 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A069620&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "023530",
+            "name": "롯데쇼핑",
+            "price": "75,400",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "94,700",
+            "marcap": 2132972127000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A023530&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "336260",
             "name": "두산퓨얼셀",
             "price": "32,100",
@@ -2610,6 +2640,16 @@
             "target_price": "88,429",
             "marcap": 1350835886400,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A035760&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "001800",
+            "name": "오리온홀딩스",
+            "price": "21,500",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "28,000",
+            "marcap": 1346876573000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A001800&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "005440",
@@ -3860,6 +3900,16 @@
             "target_price": "59,667",
             "marcap": 741301286000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A079900&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "002840",
+            "name": "미원상사",
+            "price": "154,600",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 734350000000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A002840&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "475960",
@@ -7124,7 +7174,7 @@
         {
             "code": "010170",
             "name": "대한광통신",
-            "price": "2,360",
+            "price": "2,340",
             "consensus": 0.0,
             "opinion": "관련 데이터가 없습니다",
             "target_price": "-",
@@ -19610,6 +19660,16 @@
             "target_price": "-",
             "marcap": 56361427200,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A417860&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "065130",
+            "name": "탑엔지니어링",
+            "price": "3,445",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 56258510490,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A065130&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "064480",
