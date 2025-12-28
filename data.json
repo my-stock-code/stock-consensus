@@ -1,5 +1,5 @@
 {
-    "updated_at": "2025-12-27 03:55:38",
+    "updated_at": "2025-12-28 02:29:15",
     "stocks": [
         {
             "code": "005930",
@@ -462,6 +462,106 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A010120&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "030200",
+            "name": "KT",
+            "price": "53,400",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "66,000",
+            "marcap": 13457957979000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A030200&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "086280",
+            "name": "현대글로비스",
+            "price": "178,600",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "219,941",
+            "marcap": 13395000000000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A086280&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "352820",
+            "name": "하이브",
+            "price": "314,500",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "401,750",
+            "marcap": 13387752679500,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A352820&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "018260",
+            "name": "삼성에스디에스",
+            "price": "170,600",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "213,000",
+            "marcap": 13200652680000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A018260&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "086520",
+            "name": "에코프로",
+            "price": "97,000",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 13170286744000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A086520&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "006800",
+            "name": "미래에셋증권",
+            "price": "22,900",
+            "consensus": 3.4,
+            "opinion": "3.4",
+            "target_price": "26,536",
+            "marcap": 12986263308600,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A006800&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "000150",
+            "name": "두산",
+            "price": "787,000",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "1,256,667",
+            "marcap": 12744548145000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A000150&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "042700",
+            "name": "한미반도체",
+            "price": "132,600",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "170,000",
+            "marcap": 12638397720000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A042700&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "003550",
+            "name": "LG",
+            "price": "81,500",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "100,778",
+            "marcap": 12569059177500,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A003550&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "259960",
+            "name": "크래프톤",
+            "price": "242,500",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "408,421",
+            "marcap": 11495429017500,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A259960&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "017670",
             "name": "SK텔레콤",
             "price": "53,100",
@@ -552,6 +652,16 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A277810&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "005830",
+            "name": "DB손해보험",
+            "price": "128,600",
+            "consensus": 3.9,
+            "opinion": "3.9",
+            "target_price": "162,286",
+            "marcap": 9104880000000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A005830&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "000100",
             "name": "유한양행",
             "price": "112,700",
@@ -560,6 +670,26 @@
             "target_price": "163,056",
             "marcap": 9012442849900,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A000100&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "071050",
+            "name": "한국금융지주",
+            "price": "158,200",
+            "consensus": 3.9,
+            "opinion": "3.9",
+            "target_price": "225,067",
+            "marcap": 8815851934400,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A071050&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "047050",
+            "name": "포스코인터내셔널",
+            "price": "50,100",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "69,750",
+            "marcap": 8813731678800,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A047050&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "007660",
@@ -620,6 +750,16 @@
             "target_price": "-",
             "marcap": 7984768568400,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A180640&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "039490",
+            "name": "키움증권",
+            "price": "298,500",
+            "consensus": 3.9,
+            "opinion": "3.9",
+            "target_price": "358,929",
+            "marcap": 7977222654000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A039490&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "307950",
@@ -700,6 +840,16 @@
             "target_price": "206,667",
             "marcap": 6589860840000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A141080&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "377300",
+            "name": "카카오페이",
+            "price": "48,150",
+            "consensus": 3.6,
+            "opinion": "3.6",
+            "target_price": "91,667",
+            "marcap": 6507238972500,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A377300&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "029780",
@@ -1142,6 +1292,16 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A002380&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "082740",
+            "name": "한화엔진",
+            "price": "42,900",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "59,667",
+            "marcap": 3579882391800,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A082740&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "017800",
             "name": "현대엘리베이터",
             "price": "90,900",
@@ -1220,6 +1380,16 @@
             "target_price": "157,333",
             "marcap": 3191491569200,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A011780&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "071970",
+            "name": "HD현대마린엔진",
+            "price": "93,800",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "117,800",
+            "marcap": 3181836231000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A071970&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "097950",
@@ -2672,6 +2842,36 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A185750&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "004000",
+            "name": "롯데정밀화학",
+            "price": "45,350",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "60,625",
+            "marcap": 1170030000000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A004000&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "192080",
+            "name": "더블유게임즈",
+            "price": "54,400",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "70,818",
+            "marcap": 1169377286400,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A192080&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "089860",
+            "name": "롯데렌탈",
+            "price": "32,050",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "40,900",
+            "marcap": 1163715885400,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A089860&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "285130",
             "name": "SK케미칼",
             "price": "66,600",
@@ -3202,6 +3402,16 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A389470&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "114090",
+            "name": "GKL",
+            "price": "14,590",
+            "consensus": 3.9,
+            "opinion": "3.9",
+            "target_price": "20,000",
+            "marcap": 902474225300,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A114090&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "218410",
             "name": "RFHIC",
             "price": "33,550",
@@ -3300,6 +3510,26 @@
             "target_price": "60,500",
             "marcap": 849451098300,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A166090&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "298050",
+            "name": "HS효성첨단소재",
+            "price": "189,100",
+            "consensus": 3.9,
+            "opinion": "3.9",
+            "target_price": "232,857",
+            "marcap": 847158166800,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A298050&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "499790",
+            "name": "GS피앤엘",
+            "price": "42,200",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "59,000",
+            "marcap": 836861490200,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A499790&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "006730",
@@ -3902,6 +4132,16 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A102710&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "057050",
+            "name": "현대홈쇼핑",
+            "price": "55,600",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "76,000",
+            "marcap": 667200000000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A057050&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "293940",
             "name": "신한알파리츠",
             "price": "5,510",
@@ -3942,6 +4182,16 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A251970&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "008730",
+            "name": "율촌화학",
+            "price": "26,700",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 662160000000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A008730&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "009520",
             "name": "포스코엠텍",
             "price": "15,880",
@@ -3950,6 +4200,16 @@
             "target_price": "-",
             "marcap": 661286123640,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A009520&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "228760",
+            "name": "지노믹트리",
+            "price": "27,000",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 658315917000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A228760&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "102940",
@@ -5432,6 +5692,16 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A448730&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "041830",
+            "name": "인바디",
+            "price": "31,750",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 428018003500,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A041830&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "352480",
             "name": "씨앤씨인터내셔널",
             "price": "31,350",
@@ -5590,6 +5860,16 @@
             "target_price": "9,000",
             "marcap": 407550000000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A091700&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "042520",
+            "name": "한스바이오메드",
+            "price": "30,100",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 407143646700,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A042520&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "340570",
@@ -6150,6 +6430,16 @@
             "target_price": "-",
             "marcap": 351684150900,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A101160&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "389260",
+            "name": "대명에너지",
+            "price": "19,600",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 351159970000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A389260&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "126560",
@@ -6830,6 +7120,16 @@
             "target_price": "-",
             "marcap": 305856000000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A481070&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "001510",
+            "name": "SK증권",
+            "price": "644",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 304348070124,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A001510&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "200470",
