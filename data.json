@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-03-28 02:49:24",
+    "updated_at": "2026-03-29 03:03:49",
     "stocks": [
         {
             "code": "005930",
@@ -30,16 +30,6 @@
             "target_price": "681,923",
             "marcap": 101355094170000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A005380&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
-        },
-        {
-            "code": "373220",
-            "name": "LG에너지솔루션",
-            "price": "394,500",
-            "consensus": 3.9,
-            "opinion": "3.9",
-            "target_price": "528,227",
-            "marcap": 92313000000000,
-            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A373220&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "207940",
@@ -527,7 +517,7 @@
             "price": "231,500",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "327,294",
+            "target_price": "327,444",
             "marcap": 17362500000000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A086280&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -547,7 +537,7 @@
             "price": "149,800",
             "consensus": 3.9,
             "opinion": "3.9",
-            "target_price": "150,450",
+            "target_price": "153,250",
             "marcap": 16681093597000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A000720&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -747,7 +737,7 @@
             "price": "25,300",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "31,333",
+            "target_price": "32,000",
             "marcap": 9315982723300,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A003490&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -1015,9 +1005,9 @@
             "code": "009830",
             "name": "한화솔루션",
             "price": "35,650",
-            "consensus": 3.9,
-            "opinion": "3.9",
-            "target_price": "48,429",
+            "consensus": 3.7,
+            "opinion": "3.7",
+            "target_price": "47,429",
             "marcap": 6127968908400,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A009830&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -3027,7 +3017,7 @@
             "price": "51,800",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "62,500",
+            "target_price": "62,143",
             "marcap": 1336440000000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A004000&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -5297,7 +5287,7 @@
             "price": "25,100",
             "consensus": 3.9,
             "opinion": "3.9",
-            "target_price": "33,857",
+            "target_price": "33,625",
             "marcap": 548606081600,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A095660&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -6255,9 +6245,9 @@
             "code": "089590",
             "name": "제주항공",
             "price": "5,160",
-            "consensus": 3.3,
-            "opinion": "3.3",
-            "target_price": "7,250",
+            "consensus": 3.5,
+            "opinion": "3.5",
+            "target_price": "7,000",
             "marcap": 416107482600,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A089590&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
