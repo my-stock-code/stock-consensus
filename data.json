@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-04-04 02:47:56",
+    "updated_at": "2026-04-05 03:25:25",
     "stocks": [
         {
             "code": "005930",
@@ -237,7 +237,7 @@
             "price": "109,700",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "142,556",
+            "target_price": "144,222",
             "marcap": 30532341795800,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A086790&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -5485,9 +5485,9 @@
             "code": "453340",
             "name": "현대그린푸드",
             "price": "15,450",
-            "consensus": 4.0,
-            "opinion": "4.0",
-            "target_price": "23,000",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
             "marcap": 502154602200,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A453340&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -17440,16 +17440,6 @@
             "target_price": "-",
             "marcap": 74419596960,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A241790&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
-        },
-        {
-            "code": "053450",
-            "name": "세코닉스",
-            "price": "5,030",
-            "consensus": 0.0,
-            "opinion": "관련 데이터가 없습니다",
-            "target_price": "-",
-            "marcap": 74407799090,
-            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A053450&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "033310",
