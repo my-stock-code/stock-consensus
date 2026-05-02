@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-05-01 04:02:07",
+    "updated_at": "2026-05-02 03:35:00",
     "stocks": [
         {
             "code": "005930",
@@ -45,9 +45,9 @@
             "code": "373220",
             "name": "LG에너지솔루션",
             "price": "460,500",
-            "consensus": 4.0,
-            "opinion": "4.0",
-            "target_price": "542,684",
+            "consensus": 3.9,
+            "opinion": "3.9",
+            "target_price": "537,000",
             "marcap": 107757000000000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A373220&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -15942,6 +15942,26 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A453860&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "020710",
+            "name": "시공테크",
+            "price": "4,905",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 98335292850,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A020710&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "033230",
+            "name": "인성정보",
+            "price": "1,946",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 98302929480,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A033230&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "060560",
             "name": "HC홈센타",
             "price": "3,865",
@@ -16420,6 +16440,16 @@
             "target_price": "-",
             "marcap": 92774000000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A067570&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "007280",
+            "name": "한국특강",
+            "price": "1,524",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 92679485964,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A007280&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "076610",
@@ -17382,6 +17412,16 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A180060&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
+            "code": "010040",
+            "name": "한국내화",
+            "price": "1,999",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 82093056938,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A010040&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
             "code": "045660",
             "name": "에이텍",
             "price": "9,920",
@@ -18200,6 +18240,16 @@
             "target_price": "-",
             "marcap": 73789120000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A111110&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "021050",
+            "name": "서원",
+            "price": "1,550",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 73585614500,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A021050&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "049550",
@@ -19300,6 +19350,16 @@
             "target_price": "-",
             "marcap": 62753434540,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A153460&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "089790",
+            "name": "제이티",
+            "price": "6,080",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 62718319040,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A089790&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "413640",
