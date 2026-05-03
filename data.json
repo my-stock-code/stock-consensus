@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-05-02 03:35:00",
+    "updated_at": "2026-05-03 03:53:35",
     "stocks": [
         {
             "code": "005930",
@@ -13622,16 +13622,6 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A067900&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
-            "code": "019180",
-            "name": "티에이치엔",
-            "price": "7,540",
-            "consensus": 0.0,
-            "opinion": "관련 데이터가 없습니다",
-            "target_price": "-",
-            "marcap": 135720000000,
-            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A019180&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
-        },
-        {
             "code": "005800",
             "name": "신영와코루",
             "price": "15,080",
@@ -13640,6 +13630,16 @@
             "target_price": "-",
             "marcap": 135720000000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A005800&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "019180",
+            "name": "티에이치엔",
+            "price": "7,540",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 135720000000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A019180&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "267290",
