@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-05-24 04:15:07",
+    "updated_at": "2026-05-25 04:26:48",
     "stocks": [
         {
             "code": "005930",
@@ -67,7 +67,7 @@
             "price": "364,500",
             "consensus": 3.6,
             "opinion": "3.6",
-            "target_price": "350,031",
+            "target_price": "357,700",
             "marcap": 72900000000000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A032830&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -107,7 +107,7 @@
             "price": "1,415,000",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "2,103,500",
+            "target_price": "2,093,158",
             "marcap": 65501695665000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A207940&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -307,7 +307,7 @@
             "price": "421,000",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "589,643",
+            "target_price": "592,308",
             "marcap": 29795481836000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A009540&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -347,7 +347,7 @@
             "price": "569,000",
             "consensus": 3.8,
             "opinion": "3.8",
-            "target_price": "649,833",
+            "target_price": "648,647",
             "marcap": 25404412137000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A000810&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -407,7 +407,7 @@
             "price": "243,000",
             "consensus": 3.7,
             "opinion": "3.7",
-            "target_price": "283,889",
+            "target_price": "288,750",
             "marcap": 21613931460000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A003670&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -587,7 +587,7 @@
             "price": "168,400",
             "consensus": 3.9,
             "opinion": "3.9",
-            "target_price": "220,467",
+            "target_price": "221,214",
             "marcap": 16414808018800,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A047810&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -787,7 +787,7 @@
             "price": "154,500",
             "consensus": 3.9,
             "opinion": "3.9",
-            "target_price": "218,647",
+            "target_price": "219,188",
             "marcap": 10119803920500,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A005830&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -867,7 +867,7 @@
             "price": "282,500",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "305,778",
+            "target_price": "319,000",
             "marcap": 8648977625000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A062040&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -927,7 +927,7 @@
             "price": "63,300",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "85,067",
+            "target_price": "84,000",
             "marcap": 7841291867700,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A161390&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -1187,7 +1187,7 @@
             "price": "454,000",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "636,429",
+            "target_price": "631,538",
             "marcap": 5816189914000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A128940&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -1205,9 +1205,9 @@
             "code": "029780",
             "name": "삼성카드",
             "price": "48,200",
-            "consensus": 3.5,
-            "opinion": "3.5",
-            "target_price": "67,333",
+            "consensus": 3.3,
+            "opinion": "3.3",
+            "target_price": "61,500",
             "marcap": 5584398546200,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A029780&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -1547,7 +1547,7 @@
             "price": "75,800",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "89,750",
+            "target_price": "90,571",
             "marcap": 3520797816000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A005850&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -1827,7 +1827,7 @@
             "price": "57,000",
             "consensus": 3.7,
             "opinion": "3.7",
-            "target_price": "73,571",
+            "target_price": "73,167",
             "marcap": 2977716366000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A009420&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -1857,7 +1857,7 @@
             "price": "63,000",
             "consensus": 3.9,
             "opinion": "3.9",
-            "target_price": "75,500",
+            "target_price": "75,762",
             "marcap": 2958298560000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A204320&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -3277,7 +3277,7 @@
             "price": "122,600",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "202,400",
+            "target_price": "200,500",
             "marcap": 1181182098800,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A388210&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -3545,9 +3545,9 @@
             "code": "001820",
             "name": "삼화콘덴서",
             "price": "102,000",
-            "consensus": 4.0,
-            "opinion": "4.0",
-            "target_price": "51,000",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
             "marcap": 1060290000000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A001820&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -3657,7 +3657,7 @@
             "price": "22,300",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "33,667",
+            "target_price": "35,500",
             "marcap": 1008638366000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A086450&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -3767,7 +3767,7 @@
             "price": "19,900",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "25,667",
+            "target_price": "27,000",
             "marcap": 951543096400,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A248070&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -3957,7 +3957,7 @@
             "price": "33,400",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "44,833",
+            "target_price": "44,600",
             "marcap": 886445084800,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A064960&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -4247,7 +4247,7 @@
             "price": "75,300",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "118,091",
+            "target_price": "117,111",
             "marcap": 804204000000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A241710&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -5117,7 +5117,7 @@
             "price": "47,650",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "67,500",
+            "target_price": "70,000",
             "marcap": 600771200000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A104830&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -5177,7 +5177,7 @@
             "price": "38,050",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "62,714",
+            "target_price": "61,500",
             "marcap": 589391912600,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A039130&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -7325,9 +7325,9 @@
             "code": "035810",
             "name": "이지홀딩스",
             "price": "5,250",
-            "consensus": 4.0,
-            "opinion": "4.0",
-            "target_price": "7,700",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
             "marcap": 338709971250,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A035810&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
@@ -13657,7 +13657,7 @@
             "price": "6,380",
             "consensus": 3.8,
             "opinion": "3.8",
-            "target_price": "11,000",
+            "target_price": "10,250",
             "marcap": 122893525040,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A036420&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
