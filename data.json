@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-05-30 04:02:20",
+    "updated_at": "2026-05-31 04:26:13",
     "stocks": [
         {
             "code": "005930",
@@ -117,7 +117,7 @@
             "price": "169,200",
             "consensus": 4.0,
             "opinion": "4.0",
-            "target_price": "224,600",
+            "target_price": "225,400",
             "marcap": 66057879261600,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A000270&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
