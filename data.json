@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-06-13 04:24:19",
+    "updated_at": "2026-06-14 04:51:30",
     "stocks": [
         {
             "code": "005930",
@@ -6862,16 +6862,6 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A234340&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
-            "code": "484590",
-            "name": "삼양컴텍",
-            "price": "7,930",
-            "consensus": 0.0,
-            "opinion": "관련 데이터가 없습니다",
-            "target_price": "-",
-            "marcap": 326798868500,
-            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A484590&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
-        },
-        {
             "code": "091810",
             "name": "트리니티항공",
             "price": "789",
@@ -7850,16 +7840,6 @@
             "target_price": "-",
             "marcap": 264330165000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A355150&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
-        },
-        {
-            "code": "472850",
-            "name": "폰드그룹",
-            "price": "4,585",
-            "consensus": 0.0,
-            "opinion": "관련 데이터가 없습니다",
-            "target_price": "-",
-            "marcap": 263966024420,
-            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A472850&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "108860",
@@ -8900,16 +8880,6 @@
             "target_price": "-",
             "marcap": 223635558510,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A0015G0&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
-        },
-        {
-            "code": "054210",
-            "name": "이랜텍",
-            "price": "8,840",
-            "consensus": 4.0,
-            "opinion": "4.0",
-            "target_price": "18,000",
-            "marcap": 223574296400,
-            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A054210&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "353810",
@@ -16090,6 +16060,16 @@
             "target_price": "-",
             "marcap": 76509952200,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A011320&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "012700",
+            "name": "리드코프",
+            "price": "2,920",
+            "consensus": 0.0,
+            "opinion": "관련 데이터가 없습니다",
+            "target_price": "-",
+            "marcap": 76488967840,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A012700&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "0015N0",
