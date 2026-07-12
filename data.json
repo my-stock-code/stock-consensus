@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-07-11 03:18:46",
+    "updated_at": "2026-07-12 03:30:07",
     "stocks": [
         {
             "code": "005930",
@@ -12982,16 +12982,6 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A012800&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
-            "code": "115500",
-            "name": "케이씨에스",
-            "price": "-",
-            "consensus": 4.0,
-            "opinion": "4.0",
-            "target_price": "513,958",
-            "marcap": 105120000000,
-            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A115500&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
-        },
-        {
             "code": "100700",
             "name": "세운메디칼",
             "price": "-",
@@ -13000,6 +12990,16 @@
             "target_price": "513,958",
             "marcap": 105120000000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A100700&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "115500",
+            "name": "케이씨에스",
+            "price": "-",
+            "consensus": 4.0,
+            "opinion": "4.0",
+            "target_price": "513,958",
+            "marcap": 105120000000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A115500&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "039340",
