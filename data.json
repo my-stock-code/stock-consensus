@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-09-05 03:51:01",
+    "updated_at": "2026-09-06 03:55:26",
     "stocks": [
         {
             "code": "005930",
@@ -10112,16 +10112,6 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A101530&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
-            "code": "002170",
-            "name": "SYTS",
-            "price": "-",
-            "consensus": 0.0,
-            "opinion": "의견없음",
-            "target_price": "-",
-            "marcap": 162900000000,
-            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A002170&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
-        },
-        {
             "code": "023910",
             "name": "대한약품",
             "price": "-",
@@ -10130,6 +10120,16 @@
             "target_price": "-",
             "marcap": 162900000000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A023910&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "002170",
+            "name": "SYTS",
+            "price": "-",
+            "consensus": 0.0,
+            "opinion": "의견없음",
+            "target_price": "-",
+            "marcap": 162900000000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A002170&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "123410",
@@ -18792,16 +18792,6 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A092300&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
-            "code": "003780",
-            "name": "진양산업",
-            "price": "-",
-            "consensus": 0.0,
-            "opinion": "의견없음",
-            "target_price": "-",
-            "marcap": 50700000000,
-            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A003780&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
-        },
-        {
             "code": "071670",
             "name": "에이테크솔루션",
             "price": "-",
@@ -18810,6 +18800,16 @@
             "target_price": "-",
             "marcap": 50700000000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A071670&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "003780",
+            "name": "진양산업",
+            "price": "-",
+            "consensus": 0.0,
+            "opinion": "의견없음",
+            "target_price": "-",
+            "marcap": 50700000000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A003780&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "060560",
