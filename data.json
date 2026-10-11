@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-10-10 05:15:04",
+    "updated_at": "2026-10-11 05:05:28",
     "stocks": [
         {
             "code": "005930",
@@ -10732,16 +10732,6 @@
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A460850&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
-            "code": "002170",
-            "name": "SYTS",
-            "price": "-",
-            "consensus": 0.0,
-            "opinion": "의견없음",
-            "target_price": "-",
-            "marcap": 155100000000,
-            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A002170&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
-        },
-        {
             "code": "023910",
             "name": "대한약품",
             "price": "-",
@@ -10750,6 +10740,16 @@
             "target_price": "-",
             "marcap": 155100000000,
             "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A023910&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
+        },
+        {
+            "code": "002170",
+            "name": "SYTS",
+            "price": "-",
+            "consensus": 0.0,
+            "opinion": "의견없음",
+            "target_price": "-",
+            "marcap": 155100000000,
+            "url": "https://comp.fnguide.com/SVO2/ASP/SVD_Main.asp?pGB=1&gicode=A002170&cID=&MenuYn=Y&ReportGB=&NewMenuID=101&stkGb=701"
         },
         {
             "code": "402030",
